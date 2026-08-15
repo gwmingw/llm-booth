@@ -108,6 +108,3 @@ Windows에서는 `run.bat`을 더블클릭해도 됩니다.
 - `.venv`, Hugging Face 캐시, Python 캐시 파일은 GitHub에 올리지 않는 것을 권장합니다.
 - `QuantoConfig(weights="int8")`를 사용해 메모리 사용량을 줄입니다.
 
-## 라이선스
-
-수업 및 부스 운영 목적에 맞게 자유롭게 수정해 사용할 수 있습니다. 별도 라이선스를 정하려면 저장소에 `LICENSE` 파일을 추가하세요.
