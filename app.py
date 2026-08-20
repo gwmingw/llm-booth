@@ -125,8 +125,8 @@ def ask_start_prompt(parent=None, initial_text=""):
 def run_wordcloud(model, tokenizer, top_n=30):
     # 한글 폰트 설정
     font_candidates = [
-        os.path.expandvars(r"%LOCALAPPDATA%/Microsoft/Windows/Fonts/NanumSquareRoundR.ttf"),
         os.path.expandvars(r"%LOCALAPPDATA%/Microsoft/Windows/Fonts/NanumSquareRoundB.ttf"),
+        os.path.expandvars(r"%LOCALAPPDATA%/Microsoft/Windows/Fonts/NanumSquareRoundR.ttf"),
         "c:/Windows/Fonts/NotoSansKR-Regular.ttf",
         "c:/Windows/Fonts/NotoSansKR-Medium.ttf",
         "c:/Windows/Fonts/malgun.ttf",
